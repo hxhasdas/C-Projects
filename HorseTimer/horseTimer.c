@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "HorseTimer.h"
+#include "horseTimer.h"
 
 double calcSpeed(int distance, int blocks, double repeaterDelay){
 	double divisor = (double)(blocks)/5 + repeaterDelay;
